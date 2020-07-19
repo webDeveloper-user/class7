@@ -1,0 +1,61 @@
+.home-area {
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg.jpg) no-repeat;
+	background-position:top center;
+	background-size:cover;
+	padding:100px 0;
+}
+.text-area {
+	padding-top:50px;
+}
+.text-area h1 {
+	color:#fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	line-height:1.5;
+}
+.text-area p {
+	font-size:25px;
+	margin-top:20px;
+	color:#bfaeae;
+}
+.text-area a {
+	color:#000;
+	display: inline-block;
+	padding:15px 30px;
+	margin-top:30px;
+	background:#00b894;
+	border:1px solid transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition:0.5s all;
+	border-radius:5px;
+}
+.text-area a:hover {
+	background:#fff;
+	border-color:#000;
+}
+form {
+	background:#74b9ff;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:10px 10px rgba(255, 255, 255, 0.5);
+}
+form span {
+	color:red;
+}
+form label {
+	color:#fff;
+	font-size:20px;
+}
+form input {
+	color:#000;
+}
+form input:placeholder {
+	opacity:0;
+}
+textarea {
+	min-height:150px;
+}
+.alignment {
+	text-align: center;
+}
